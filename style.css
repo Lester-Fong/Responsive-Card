@@ -37,6 +37,12 @@ body {
   border-top-right-radius: 10px;
 }
 
+.overlay {
+  background-color: rgba(153, 53, 216, 0.6);
+  height: 510px;
+  border-radius: 0px 10px 10px 0;
+}
+
 .accent {
   color: hsl(277, 64%, 61%);
 }
@@ -64,7 +70,7 @@ body {
   margin: 2.5em 0;
 }
 
-.brag span {
+.brag .stat {
   margin: 2.2em 0;
   display: block;
 }
@@ -123,11 +129,11 @@ body {
     /* border: 2px solid red; */
   }
 
-  .brag span h1 {
+  .brag .stat h1 {
     padding: 3em;
   }
 
-  .brag span p {
+  .brag .stat p {
     margin: 0;
     padding: 0;
   }
