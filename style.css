@@ -37,12 +37,6 @@ body {
   border-top-right-radius: 10px;
 }
 
-.overlay {
-  background-color: rgba(153, 53, 216, 0.6);
-  height: 510px;
-  border-radius: 0px 10px 10px 0;
-}
-
 .accent {
   color: hsl(277, 64%, 61%);
 }
@@ -89,6 +83,12 @@ body {
 
   .col img {
     display: none;
+  }
+
+  .overlay {
+    background-color: rgba(153, 53, 216, 0.6);
+    height: 510px;
+    border-radius: 0px 10px 10px 0;
   }
 
   .col {
